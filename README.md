@@ -13,9 +13,10 @@ Master's project on detecting illegal dumping in modern cities using Computer Vi
 ![image](https://user-images.githubusercontent.com/60303995/195780781-28ce6549-92b5-4165-9d8b-8fe6f4d230a3.png)
 
 ## Model Overview
-![image](https://user-images.githubusercontent.com/60303995/195782533-e218007b-624f-4a61-a22c-2001db8f597b.png)
-![image](https://user-images.githubusercontent.com/60303995/195782431-1c9bb537-f427-4b1c-8d19-767eca7baf01.png)
 1. three models: human detection, car-license-plate detection and trash detection
+2. All the model files with best weights are uploaded on the repo under model folder.
+![image](https://user-images.githubusercontent.com/60303995/195782431-1c9bb537-f427-4b1c-8d19-767eca7baf01.png)
+
 
 ## results
 1. Graph of trash_detection model below:
@@ -23,3 +24,5 @@ Master's project on detecting illegal dumping in modern cities using Computer Vi
 2. Results on unseen data from robloflow universe. the confidence was set at 70%
 ![image](https://user-images.githubusercontent.com/60303995/195781934-40633098-e670-49f8-a4ac-7bb30ffc9189.png)
 
+## Tracking
+1. Deepsort algorithm will be used to track objects and human. Same ID will be assigned to both human and trash based on the distance. As human go far from the ojbect will be marked as illegal dumping.
