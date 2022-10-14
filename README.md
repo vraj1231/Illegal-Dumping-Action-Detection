@@ -15,6 +15,7 @@ Master's project on detecting illegal dumping in modern cities using Computer Vi
 ## Model Overview
 1. three models: human detection, car-license-plate detection and trash detection
 2. All the model files with best weights are uploaded on the repo under model folder.
+3. trash model was trained on 4500 images with augmentation, while license-plate with 2000 images and about 1500 images of human with pretrain weights of humancrowd git repo.
 ![image](https://user-images.githubusercontent.com/60303995/195782431-1c9bb537-f427-4b1c-8d19-767eca7baf01.png)
 
 
