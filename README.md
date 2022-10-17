@@ -4,7 +4,7 @@ Master's project on detecting illegal dumping in modern cities using Computer Vi
 # YOLOv5 + OCR + DEEPSORT
 #### Calculating illegal dumping based on the distance between trash detection and human detection bounding box.
 
-![image](https://github.com/vraj1231/Illegal-Dumping-Action-Detection/blob/Sub_branch/README/ezgif.com-gif-maker%20(2).gif)
+![image](https://github.com/vraj1231/Illegal-Dumping-Action-Detection/blob/Sub_branch/README/ezgif.com-gif-maker%20(3).gif)
 
 ## Data preprocess pipepline
 1. About 2000 manually labels images and videos using labelImg and Roboflow. Will upload the link to drive and roboflow later.
